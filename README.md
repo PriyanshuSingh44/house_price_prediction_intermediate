@@ -64,16 +64,20 @@ Typical libraries used:
 
 ## 🚀 Usage
 
-### 🔹 To run the XGBoost model:
+🔹 To run the **XGBoost model notebook**:
 
 ```bash
-python xgboost_model.ipynb
+jupyter notebook xgboost_model.ipynb
+# OR to run all cells at once:
+jupyter nbconvert --to notebook --execute --inplace xgboost_model.ipynb
 ```
 
-### 🔸 To run the Random Forest model:
+🔸 To run the Random Forest model notebook:
 
 ```bash
-python random_forest_model.ipynb
+jupyter notebook random_forest_model.ipynb
+# OR to run all cellls at once:
+jupyter nbconvert --to notebook --execute --inplace random_forest_model.ipynb
 ```
 
 ---
