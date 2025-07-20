@@ -1,5 +1,13 @@
 # 🏠 House Price Prediction (Intermediate Level)
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Array%20Computing-013243?logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn&logoColor=white)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-Ensemble%20Model-0C5A9A?logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-EC2D01?logo=xgboost&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+
 This project predicts house prices using two separate machine learning models: **XGBoost Regressor** and **Random Forest Regressor**. The implementation is based on what was learned in the Kaggle Intermediate Machine Learning course. Each model is trained in its own script, and the code is kept simple and easy to follow (not modularized yet).
 
 ---
@@ -16,7 +24,10 @@ house_price_prediction_intermediate/
 |   ├── XGBoost.ipynb  # Trains and evaluates using XGBRegressor
 |   ├── RandomForest.ipynb # # Trains and evaluates using RandomForestRegressor
 |
-├── README.md              # Project documentation (this file)
+├── .gitignore
+├── LICENSE
+├── README.md   # Project documentation (this file)
+├── requirements.txt             
 ```
 
 ---
